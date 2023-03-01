@@ -1,0 +1,17 @@
+Under java projects find your project then find referenced libraries, click on the + icon. 
+Locate the javafx sdk on dropbox then click on lib folder, copy all of the libs and click ok on the file explorer
+
+then click on run on the top of vs code and click add confirgurations.
+put a comma after  "mainClass": "${file}",   and a new line then add this arg
+
+
+"vmArgs": "--module-path \"C:/Users/domin/Dropbox/javafx-sdk-18.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+
+
+Add this line again right under "projectName:...",
+
+
+
+You are all set!
+
+
